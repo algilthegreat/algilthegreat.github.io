@@ -12,6 +12,7 @@ touch out/.nojekyll
 
 cd out
 git init -q -b gh-pages
+git config core.autocrlf false
 git add -A
 git -c user.name="$(git -C .. config user.name)" -c user.email="$(git -C .. config user.email)" \
   commit -q -m "Publication du $(date '+%Y-%m-%d %H:%M')"
