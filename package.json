@@ -1,0 +1,28 @@
+{
+  "name": "festival-france-laos-2026",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site officiel du Festival France–Laos 2026 — Institut français du Laos (Vientiane × Luang Prabang)",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "npx serve out",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.48.0",
+    "motion": "^13.4.5",
+    "next": "^16.3.7",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3"
+  }
+}
