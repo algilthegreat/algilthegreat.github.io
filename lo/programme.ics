@@ -1,0 +1,565 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Institut francais du Laos//Festival France-Laos 2026//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festival France–Laos 2026
+X-WR-TIMEZONE:Asia/Vientiane
+BEGIN:VEVENT
+UID:exposition-lumieres-du-mekong-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261110
+SUMMARY:ແສງແຫ່ງແມ່ນ້ຳຂອງ — Festival Fra
+ nce–Laos 2026
+DESCRIPTION:ນິທັດສະການພາບຖ່າຍຂອງ 
+ ໂທມາ ຈີຣາ: ສອງລະດູເທິງແມ່ນ
+ ້ຳ.\n\nhttps://algilthegreat.github.io/lo/evenements/exposition-lumi
+ eres-du-mekong-luang-prabang
+LOCATION:ຫໍພິພິທະພັນມໍລະດົກ\, Route S
+ isavangvong\, Luang Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/exposition-lumieres-du-
+ mekong-luang-prabang
+GEO:19.8908;102.1358
+END:VEVENT
+BEGIN:VEVENT
+UID:inauguration-festival-france-laos-2026@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261103T110000Z
+DTEND:20261103T153000Z
+SUMMARY:ພິທີເປີດເທດສະການ ຝຣັ່ງ
+ –ລາວ 2026 — Festival France–Laos 2026
+DESCRIPTION:ງານເປີດອັນຍິ່ງໃຫຍ່ ຢູ
+ ່ແຄມແມ່ນ້ຳຂອງ: ຄຳປາໄສ\, ການ
+ ເຕັ້ນ\, ການສາຍແສງ ແລະ ຜົນງາ
+ ນດົນຕີ ຝຣັ່ງ-ລາວ.\n\nhttps://algilthegreat.g
+ ithub.io/lo/evenements/inauguration-festival-france-laos-2026
+LOCATION:ແຄມແມ່ນ້ຳຂອງ\, Route Manthatourath\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/inauguration-festival-f
+ rance-laos-2026
+GEO:19.8925;102.1372
+END:VEVENT
+BEGIN:VEVENT
+UID:exposition-memoires-de-papier@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261110
+SUMMARY:ຄວາມຊົງຈຳເຈ້ຍ — Festival France–Lao
+ s 2026
+DESCRIPTION:ຜົນງານຕິດຕັ້ງເຈ້ຍສາ ແ
+ ບບແຂວນ ຂອງ ຄຳຫຼ້າ ອິນທະວົງ
+ .\n\nhttps://algilthegreat.github.io/lo/evenements/exposition-memoires-d
+ e-papier
+LOCATION:ຫໍວາງສະແດງ ສີສະຫວ່າງວົ
+ ງ\, Route Sisavangvong\, Luang Prabang\, ຫຼວງພະບາງ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/exposition-memoires-de-
+ papier
+GEO:19.8893;102.1349
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-khene-electro@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261104T123000Z
+DTEND:20261104T140000Z
+SUMMARY:ແຄນ & ອີເລັກໂທຣ — Festival France–Lao
+ s 2026
+DESCRIPTION:ສຽງແຄນ ພົບກັບເຄື່ອງສັ
+ ງເຄາະສຽງຂອງ ເຄລມັງສ໌ ອາໂນ.
+ \n\nhttps://algilthegreat.github.io/lo/evenements/concert-khene-electro
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Centre-ville\, Luang Prabang\, ຫຼວ
+ ງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/concert-khene-electro
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-danse-enfants-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261105T030000Z
+DTEND:20261105T043000Z
+SUMMARY:ເຕັ້ນດ້ວຍມື — ເວີກຊັອບເ
+ ດັກ — Festival France–Laos 2026
+DESCRIPTION:ຄົ້ນພົບທ່າທາງນາດສິນລ
+ າວ ຜ່ານການຫຼິ້ນ.\n\nhttps://algilthegreat.gi
+ thub.io/lo/evenements/atelier-danse-enfants-luang-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Centre-ville\, Luang Prabang\, ຫຼວ
+ ງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/atelier-danse-enfants-l
+ uang-prabang
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:projection-les-rizieres-du-ciel@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261105T120000Z
+DTEND:20261105T140000Z
+SUMMARY:ນາເທິງຟ້າ — ສາຍກາງແຈ້ງ 
+ — Festival France–Laos 2026
+DESCRIPTION:ຮູບເງົາຂອງ ມາລີ ດວງມາ
+ ລາ ສາຍໃຕ້ແສງດາວ ພ້ອມຜູ້ກຳ
+ ກັບ.\n\nhttps://algilthegreat.github.io/lo/evenements/projection-l
+ es-rizieres-du-ciel
+LOCATION:ແຄມແມ່ນ້ຳຂອງ\, Route Manthatourath\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/projection-les-rizieres
+ -du-ciel
+GEO:19.8925;102.1372
+END:VEVENT
+BEGIN:VEVENT
+UID:conference-habiter-le-patrimoine@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261106T100000Z
+DTEND:20261106T113000Z
+SUMMARY:ອາໄສຢູ່ໃນມໍລະດົກ — Festival Fra
+ nce–Laos 2026
+DESCRIPTION:ຈະອະນຸລັກເຮືອນໄມ້ຫຼວ
+ ງພະບາງ ໄປພ້ອມກັບການອາໄສຢ
+ ູ່ໄດ້ແນວໃດ?\n\nhttps://algilthegreat.github.io/lo/ev
+ enements/conference-habiter-le-patrimoine
+LOCATION:ຫໍພິພິທະພັນມໍລະດົກ\, Route S
+ isavangvong\, Luang Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/conference-habiter-le-p
+ atrimoine
+GEO:19.8908;102.1358
+END:VEVENT
+BEGIN:VEVENT
+UID:deux-rives-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261107T123000Z
+DTEND:20261107T134500Z
+SUMMARY:ສອງຝັ່ງ — Festival France–Laos 2026
+DESCRIPTION:ການເຕັ້ນຄູ່ ຝຣັ່ງ-ລາວ 
+ ກ່ຽວກັບສິ່ງທີ່ແຍກ ແລະ ສິ່
+ ງທີ່ເຊື່ອມ.\n\nhttps://algilthegreat.github.io/lo/ev
+ enements/deux-rives-luang-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Centre-ville\, Luang Prabang\, ຫຼວ
+ ງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/deux-rives-luang-praban
+ g
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-tissage-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261108T023000Z
+DTEND:20261108T053000Z
+SUMMARY:ເວີກຊັອບ ການຕ່ຳແຜ່ນ ແລະ
+  ລວດລາຍ — Festival France–Laos 2026
+DESCRIPTION:ອອກແບບລວດລາຍຂອງຕົນເອ
+ ງ ຈາກຜ້າສິ້ນພື້ນເມືອງ.\n\nhttps:
+ //algilthegreat.github.io/lo/evenements/atelier-tissage-luang-prabang
+LOCATION:ຫໍວາງສະແດງ ສີສະຫວ່າງວົ
+ ງ\, Route Sisavangvong\, Luang Prabang\, ຫຼວງພະບາງ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/atelier-tissage-luang-p
+ rabang
+GEO:19.8893;102.1349
+END:VEVENT
+BEGIN:VEVENT
+UID:diner-a-quatre-mains@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261108T120000Z
+DTEND:20261108T150000Z
+SUMMARY:ອາຫານຄ່ຳສີ່ມື — Festival France–Lao
+ s 2026
+DESCRIPTION:ແສງດາວ ແກ້ວລາ ແລະ ປອລ ໂ
+ ອເຊ ສ້າງເມນູ ແມ່ນ້ຳຂອງ–ແອ
+ ດແລນຕິກ.\n\nhttps://algilthegreat.github.io/lo/evenements/
+ diner-a-quatre-mains
+LOCATION:ສວນແຫ່ງລົດຊາດ\, Ban Wat That\, Luang P
+ rabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/diner-a-quatre-mains
+GEO:19.8876;102.1338
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-bilingue-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261109T100000Z
+DTEND:20261109T113000Z
+SUMMARY:ການອ່ານສອງພາສາ: ສຽງແຫ່ງ
+ ແມ່ນ້ຳ — Festival France–Laos 2026
+DESCRIPTION:ອ່ານບົດຂຽນພາສາຝຣັ່ງ ແ
+ ລະ ລາວ ຄູ່ກັນ ເພື່ອປິດອາທິ
+ ດທີ່ຫຼວງພະບາງ.\n\nhttps://algilthegreat.github
+ .io/lo/evenements/lecture-bilingue-luang-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Centre-ville\, Luang Prabang\, ຫຼວ
+ ງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/lecture-bilingue-luang-
+ prabang
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:soiree-ouverture-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261110T120000Z
+DTEND:20261110T150000Z
+SUMMARY:ງານເປີດທີ່ວຽງຈັນ — Festival Fra
+ nce–Laos 2026
+DESCRIPTION:ເທດສະການມາຮອດນະຄອນຫຼ
+ ວງ ດ້ວຍຄອນເສີດໃຫຍ່ຟຣີ ແຄມ
+ ແມ່ນ້ຳຂອງ.\n\nhttps://algilthegreat.github.io/lo/evene
+ ments/soiree-ouverture-vientiane
+LOCATION:ສວນເຈົ້າອານຸວົງ\, Quai Fa Ngum\, V
+ ientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/soiree-ouverture-vienti
+ ane
+GEO:17.9617;102.6038
+END:VEVENT
+BEGIN:VEVENT
+UID:exposition-lumieres-du-mekong-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261122
+SUMMARY:ແສງແຫ່ງແມ່ນ້ຳຂອງ — ວຽງຈ
+ ັນ — Festival France–Laos 2026
+DESCRIPTION:ນິທັດສະການຂອງ ໂທມາ ຈີ
+ ຣາ ຍ້າຍມາຫໍພິພິທະພັນແຫ່ງ
+ ຊາດ.\n\nhttps://algilthegreat.github.io/lo/evenements/exposition-l
+ umieres-du-mekong-vientiane
+LOCATION:ຫໍພິພິທະພັນແຫ່ງຊາດລາວ\
+ , Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/exposition-lumieres-du-
+ mekong-vientiane
+GEO:17.9752;102.6305
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-photographie-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261111T020000Z
+DTEND:20261111T050000Z
+SUMMARY:ເວີກຊັອບຖ່າຍພາບ: ເບິ່ງແ
+ ມ່ນ້ຳ — Festival France–Laos 2026
+DESCRIPTION:ຍ່າງຖ່າຍພາບແຄມນ້ຳ ກັບ
+  ໂທມາ ຈີຣາ.\n\nhttps://algilthegreat.github.io/lo/evenem
+ ents/atelier-photographie-vientiane
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lang Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/atelier-photographie-vi
+ entiane
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:film-le-fleuve-et-la-memoire@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261111T120000Z
+DTEND:20261111T140000Z
+SUMMARY:ແມ່ນ້ຳ ແລະ ຄວາມຊົງຈຳ — ຮ
+ ອບປະຖົມມະທັດ — Festival France–Laos 2026
+DESCRIPTION:ສາລະຄະດີເລື່ອງໃໝ່ຂອງ 
+ ຊູລຽງ ໂມໂຣ-ເຟຣັງ ພ້ອມຜູ້ກຳ
+ ກັບ.\n\nhttps://algilthegreat.github.io/lo/evenements/film-le-fleu
+ ve-et-la-memoire
+LOCATION:ສະໂມສອນຮູບເງົາແຄມນ້ຳ\, Q
+ uai Fa Ngum\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/film-le-fleuve-et-la-me
+ moire
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:exposition-tisser-demain@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261122
+SUMMARY:ຖັກທໍອະນາຄົດ — Festival France–Laos 2
+ 026
+DESCRIPTION:ວັດຖຸຮ່ວມສະໄໝ ທີ່ເກີດ
+ ຈາກການພົບກັນຂອງນັກອອກແບບ
+ ຝຣັ່ງ ແລະ ຊ່າງຕ່ຳລາວ.\n\nhttps://alg
+ ilthegreat.github.io/lo/evenements/exposition-tisser-demain
+LOCATION:ຫໍວາງສະແດງ ລ້ານຊ້າງ\, Avenue
+  Lang Xang\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/exposition-tisser-demai
+ n
+GEO:17.9702;102.6152
+END:VEVENT
+BEGIN:VEVENT
+UID:table-ronde-traduire-entre-francais-et-lao@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261112T080000Z
+DTEND:20261112T100000Z
+SUMMARY:ໂຕະມົນ: ການແປລະຫວ່າງ ຝຣ
+ ັ່ງ ແລະ ລາວ — Festival France–Laos 2026
+DESCRIPTION:ການແປມີຜົນຕໍ່ບົດຂຽນ ແ
+ ລະ ວັດທະນະທຳແນວໃດ.\n\nhttps://algilthegr
+ eat.github.io/lo/evenements/table-ronde-traduire-entre-francais-et-lao
+LOCATION:ມະຫາວິທະຍາໄລແຫ່ງຊາດລາ
+ ວ\, Campus de Dongdok\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/table-ronde-traduire-en
+ tre-francais-et-lao
+GEO:18.038;102.644
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-clemence-arnaud-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261112T120000Z
+DTEND:20261112T150000Z
+SUMMARY:ຄອນເສີດ — ເຄລມັງສ໌ ອາໂນ 
+ — Festival France–Laos 2026
+DESCRIPTION:ເປຍໂນ\, ເຄື່ອງສັງເຄາະສ
+ ຽງ ແລະ ສຽງທີ່ບັນທຶກຈາກແມ່
+ ນ້ຳຂອງ.\n\nhttps://algilthegreat.github.io/lo/evenements/con
+ cert-clemence-arnaud-vientiane
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lang Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/concert-clemence-arnaud
+ -vientiane
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:rencontres-professionnelles-industries-culturelles@festival-france-la
+ os-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261113T020000Z
+DTEND:20261113T100000Z
+SUMMARY:ການພົບປະມືອາຊີບ ອຸດສາຫ
+ ະກຳວັດທະນະທຳ — Festival France–Laos 2026
+DESCRIPTION:ໜຶ່ງວັນແຫ່ງການພົບປະທ
+ ຸລະກິດ\, ການບັນຍາຍ ແລະ ການສ
+ ້າງເຄືອຂ່າຍ ລະຫວ່າງຜູ້ປະ
+ ກອບການ ຝຣັ່ງ ແລະ ລາວ.\n\nhttps://algil
+ thegreat.github.io/lo/evenements/rencontres-professionnelles-industries-
+ culturelles
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lang Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/rencontres-professionne
+ lles-industries-culturelles
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:film-mousson-courts-metrages@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261113T120000Z
+DTEND:20261113T134500Z
+SUMMARY:ລະດູຝົນ + ຮູບເງົາສັ້ນລາ
+ ວ — Festival France–Laos 2026
+DESCRIPTION:ການຄັດເລືອກຜົນງານຮູບ
+ ເງົາລາວລຸ້ນໃໝ່.\n\nhttps://algilthegreat.git
+ hub.io/lo/evenements/film-mousson-courts-metrages
+LOCATION:ສະໂມສອນຮູບເງົາແຄມນ້ຳ\, Q
+ uai Fa Ngum\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/film-mousson-courts-met
+ rages
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:masterclass-cinema@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261114T030000Z
+DTEND:20261114T053000Z
+SUMMARY:ມາສເຕີຄລາສຮູບເງົາ: ຖ່າຍ
+ ທຳຄວາມເປັນຈິງ — Festival France–Laos 2026
+DESCRIPTION:ຜູ້ກຳກັບສອງຄົນ ແບ່ງປັ
+ ນວິທີການກັບນັກສຶກສາ ແລະ ຜ
+ ູ້ກຳກັບໜຸ່ມ.\n\nhttps://algilthegreat.github.io/lo
+ /evenements/masterclass-cinema
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lang Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/masterclass-cinema
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:le-petit-elephant-de-lumiere@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261114T090000Z
+DTEND:20261114T100000Z
+SUMMARY:ຊ້າງນ້ອຍແຫ່ງແສງ — Festival France
+ –Laos 2026
+DESCRIPTION:ລະຄອນເງົາບໍ່ມີຄຳເວົ້
+ າ\, ອາຍຸ 4 ປີຂຶ້ນໄປ.\n\nhttps://algilthegreat.
+ github.io/lo/evenements/le-petit-elephant-de-lumiere
+LOCATION:ຫໍວັດທະນະທຳແຫ່ງຊາດ\, Centre-
+ ville\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/le-petit-elephant-de-lu
+ miere
+GEO:17.9648;102.6088
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-creation-numerique@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261115T030000Z
+DTEND:20261115T060000Z
+SUMMARY:ເວີກຊັອບການສ້າງສັນດິຈ
+ ິຕອນ — Festival France–Laos 2026
+DESCRIPTION:ສ້າງພາບທີ່ຕອບສະໜອງຕໍ
+ ່ສຽງ.\n\nhttps://algilthegreat.github.io/lo/evenements/atelier-c
+ reation-numerique
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lang Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/atelier-creation-numeri
+ que
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:deux-rives-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261115T123000Z
+DTEND:20261115T134500Z
+SUMMARY:ສອງຝັ່ງ — ວຽງຈັນ — Festival France
+ –Laos 2026
+DESCRIPTION:ການເຕັ້ນຄູ່ ຝຣັ່ງ-ລາວ 
+ ເທິງເວທີໃຫຍ່ຂອງວຽງຈັນ.\n\nhttp
+ s://algilthegreat.github.io/lo/evenements/deux-rives-vientiane
+LOCATION:ຫໍວັດທະນະທຳແຫ່ງຊາດ\, Centre-
+ ville\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/deux-rives-vientiane
+GEO:17.9648;102.6088
+END:VEVENT
+BEGIN:VEVENT
+UID:conference-le-francais-au-laos@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261116T100000Z
+DTEND:20261116T113000Z
+SUMMARY:ພາສາຝຣັ່ງໃນລາວ ອະດີດ ແລ
+ ະ ອະນາຄົດ — Festival France–Laos 2026
+DESCRIPTION:ຄູ\, ນັກສຶກສາ ແລະ ນັກຄົ
+ ້ນຄວ້າ ກ່ຽວກັບບົດບາດຂອງພ
+ າສາຝຣັ່ງໃນການສຶກສາລາວ.\n\nhttp
+ s://algilthegreat.github.io/lo/evenements/conference-le-francais-au-laos
+LOCATION:ມະຫາວິທະຍາໄລແຫ່ງຊາດລາ
+ ວ\, Campus de Dongdok\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/conference-le-francais-
+ au-laos
+GEO:18.038;102.644
+END:VEVENT
+BEGIN:VEVENT
+UID:film-les-enfants-du-bac@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261116T120000Z
+DTEND:20261116T133000Z
+SUMMARY:ເດັກນ້ອຍແຫ່ງເຮືອຂ້າມຟ
+ າກ — Festival France–Laos 2026
+DESCRIPTION:ສາລະຄະດີກ່ຽວກັບເດັກນ
+ ້ອຍ ທີ່ຂ້າມແມ່ນ້ຳທຸກມື້ ເ
+ ພື່ອໄປໂຮງຮຽນ.\n\nhttps://algilthegreat.github.io
+ /lo/evenements/film-les-enfants-du-bac
+LOCATION:ສະໂມສອນຮູບເງົາແຄມນ້ຳ\, Q
+ uai Fa Ngum\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/film-les-enfants-du-bac
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:mekong-digital@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261117T130000Z
+DTEND:20261117T140000Z
+SUMMARY:ແມ່ນ້ຳຂອງດິຈິຕອນ — Festival Fra
+ nce–Laos 2026
+DESCRIPTION:ການສະແດງພາບ ແລະ ສຽງແບ
+ ບດື່ມດ່ຳ ສາຍເທິງແຄມແມ່ນ້
+ ຳ.\n\nhttps://algilthegreat.github.io/lo/evenements/mekong-digital
+LOCATION:ສວນເຈົ້າອານຸວົງ\, Quai Fa Ngum\, V
+ ientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/mekong-digital
+GEO:17.9617;102.6038
+END:VEVENT
+BEGIN:VEVENT
+UID:cine-jeunesse-le-petit-bateau-de-papier@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261118T080000Z
+DTEND:20261118T090000Z
+SUMMARY:ຮູບເງົາເດັກ: ເຮືອເຈ້ຍນ້
+ ອຍ — Festival France–Laos 2026
+DESCRIPTION:ຮູບເງົາກາຕູນບໍ່ມີຄຳເ
+ ວົ້າ\, ອາຍຸ 3 ປີຂຶ້ນໄປ\, ຕາມດ້
+ ວຍກິດຈະກຳພັບເຈ້ຍ.\n\nhttps://algilthegre
+ at.github.io/lo/evenements/cine-jeunesse-le-petit-bateau-de-papier
+LOCATION:ສະໂມສອນຮູບເງົາແຄມນ້ຳ\, Q
+ uai Fa Ngum\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/cine-jeunesse-le-petit-
+ bateau-de-papier
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-cuisine-franco-lao@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261118T100000Z
+DTEND:20261118T123000Z
+SUMMARY:ເວີກຊັອບອາຫານ ຝຣັ່ງ-ລາວ
+  — Festival France–Laos 2026
+DESCRIPTION:ປຸງອາຫານເມນູປະສົມ ກັບ
+ ເຊັບສອງຄົນ.\n\nhttps://algilthegreat.github.io/lo/ev
+ enements/atelier-cuisine-franco-lao
+LOCATION:ເຮືອນແຫ່ງລົດຊາດ\, Rue Setthathirat
+ h\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/atelier-cuisine-franco-
+ lao
+GEO:17.9641;102.6079
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-contes-et-ombres@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261119T070000Z
+DTEND:20261119T083000Z
+SUMMARY:ນິທານ ແລະ ເງົາ — ເວີກຊັອ
+ ບເດັກ — Festival France–Laos 2026
+DESCRIPTION:ຟັງນິທານລາວ ແລ້ວສ້າງເ
+ ປັນລະຄອນເງົາ.\n\nhttps://algilthegreat.github.io
+ /lo/evenements/atelier-contes-et-ombres
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lang Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/atelier-contes-et-ombre
+ s
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:debat-villes-durables@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261119T110000Z
+DTEND:20261119T123000Z
+SUMMARY:ໂຕ້ວາທີ: ເມືອງແບບຍືນຍົງ
+  ສຳລັບມື້ອື່ນ? — Festival France–Laos 2026
+DESCRIPTION:ສະຖາປະນິກ\, ນັກວາງແຜນເ
+ ມືອງ ແລະ ນັກອອກແບບ ໂຕ້ວາທີ
+ ກ່ຽວກັບເມືອງແຫ່ງອະນາຄົດ.\n
+ \nhttps://algilthegreat.github.io/lo/evenements/debat-villes-durables
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lang Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/debat-villes-durables
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:film-les-rizieres-du-ciel-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261120T120000Z
+DTEND:20261120T134500Z
+SUMMARY:ນາເທິງຟ້າ — ສາຍຄືນ — Festival F
+ rance–Laos 2026
+DESCRIPTION:ການສາຍຄັ້ງທີສອງ ຂອງຮູ
+ ບເງົາ ມາລີ ດວງມາລາ ທີ່ວຽງຈ
+ ັນ.\n\nhttps://algilthegreat.github.io/lo/evenements/film-les-rizier
+ es-du-ciel-vientiane
+LOCATION:ສະໂມສອນຮູບເງົາແຄມນ້ຳ\, Q
+ uai Fa Ngum\, Vientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/film-les-rizieres-du-ci
+ el-vientiane
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-de-cloture@festival-france-laos-2026
+DTSTAMP:20260929T160052Z
+DTSTART:20261121T120000Z
+DTEND:20261121T160000Z
+SUMMARY:ຄອນເສີດປິດງານ — Festival France–Lao
+ s 2026
+DESCRIPTION:ນັກດົນຕີທັງໝົດຂອງເທດ
+ ສະການ ມາຮ່ວມກັນໃນຄືນສຸດທ
+ ້າຍແຄມແມ່ນ້ຳຂອງ.\n\nhttps://algilthegreat.
+ github.io/lo/evenements/concert-de-cloture
+LOCATION:ສວນເຈົ້າອານຸວົງ\, Quai Fa Ngum\, V
+ ientiane\, ວຽງຈັນ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/concert-de-cloture
+GEO:17.9617;102.6038
+END:VEVENT
+END:VCALENDAR

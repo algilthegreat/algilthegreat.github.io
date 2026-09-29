@@ -1,0 +1,501 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Institut francais du Laos//Festival France-Laos 2026//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festival France–Laos 2026
+X-WR-TIMEZONE:Asia/Vientiane
+BEGIN:VEVENT
+UID:exposition-lumieres-du-mekong-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261110
+SUMMARY:Lumières du Mékong — Festival France–Laos 2026
+DESCRIPTION:Exposition photographique de Thomas Girard\, deux saisons sur
+  le fleuve.\n\nhttps://algilthegreat.github.io/fr/evenements/exposition-
+ lumieres-du-mekong-luang-prabang
+LOCATION:Musée du patrimoine\, Route Sisavangvong\, Luang Prabang\, Luan
+ g Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/exposition-lumieres-du-
+ mekong-luang-prabang
+GEO:19.8908;102.1358
+END:VEVENT
+BEGIN:VEVENT
+UID:inauguration-festival-france-laos-2026@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261103T110000Z
+DTEND:20261103T153000Z
+SUMMARY:Inauguration du Festival France–Laos 2026 — Festival France
+ –Laos 2026
+DESCRIPTION:Grande soirée d’ouverture sur les berges du Mékong : disc
+ ours\, danse\, projection lumineuse et création musicale franco-lao.\n\
+ nhttps://algilthegreat.github.io/fr/evenements/inauguration-festival-fra
+ nce-laos-2026
+LOCATION:Berges du Mékong\, Route Manthatourath\, Luang Prabang\, Luang 
+ Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/inauguration-festival-f
+ rance-laos-2026
+GEO:19.8925;102.1372
+END:VEVENT
+BEGIN:VEVENT
+UID:exposition-memoires-de-papier@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261110
+SUMMARY:Mémoires de papier — Festival France–Laos 2026
+DESCRIPTION:Installations suspendues en papier saa de Khamla Inthavong.\n
+ \nhttps://algilthegreat.github.io/fr/evenements/exposition-memoires-de-p
+ apier
+LOCATION:Galerie Sisavangvong\, Route Sisavangvong\, Luang Prabang\, Luan
+ g Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/exposition-memoires-de-
+ papier
+GEO:19.8893;102.1349
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-khene-electro@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261104T123000Z
+DTEND:20261104T140000Z
+SUMMARY:Khène & électro — Festival France–Laos 2026
+DESCRIPTION:Le souffle du khène rencontre les synthétiseurs de Clémenc
+ e Arnaud.\n\nhttps://algilthegreat.github.io/fr/evenements/concert-khene
+ -electro
+LOCATION:Institut français du Laos — Luang Prabang\, Centre-ville\, Lu
+ ang Prabang\, Luang Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/concert-khene-electro
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-danse-enfants-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261105T030000Z
+DTEND:20261105T043000Z
+SUMMARY:Danse les mains — atelier enfants — Festival France–Laos 20
+ 26
+DESCRIPTION:Découvrir les gestes de la danse lao en s’amusant.\n\nhttp
+ s://algilthegreat.github.io/fr/evenements/atelier-danse-enfants-luang-pr
+ abang
+LOCATION:Institut français du Laos — Luang Prabang\, Centre-ville\, Lu
+ ang Prabang\, Luang Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/atelier-danse-enfants-l
+ uang-prabang
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:projection-les-rizieres-du-ciel@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261105T120000Z
+DTEND:20261105T140000Z
+SUMMARY:Les Rizières du ciel — projection en plein air — Festival Fr
+ ance–Laos 2026
+DESCRIPTION:Le long métrage de Mali Douangmala projeté sous les étoile
+ s\, en présence de la réalisatrice.\n\nhttps://algilthegreat.github.io
+ /fr/evenements/projection-les-rizieres-du-ciel
+LOCATION:Berges du Mékong\, Route Manthatourath\, Luang Prabang\, Luang 
+ Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/projection-les-rizieres
+ -du-ciel
+GEO:19.8925;102.1372
+END:VEVENT
+BEGIN:VEVENT
+UID:conference-habiter-le-patrimoine@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261106T100000Z
+DTEND:20261106T113000Z
+SUMMARY:Habiter le patrimoine — Festival France–Laos 2026
+DESCRIPTION:Comment préserver les maisons de bois de Luang Prabang tout 
+ en y vivant ?\n\nhttps://algilthegreat.github.io/fr/evenements/conferenc
+ e-habiter-le-patrimoine
+LOCATION:Musée du patrimoine\, Route Sisavangvong\, Luang Prabang\, Luan
+ g Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/conference-habiter-le-p
+ atrimoine
+GEO:19.8908;102.1358
+END:VEVENT
+BEGIN:VEVENT
+UID:deux-rives-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261107T123000Z
+DTEND:20261107T134500Z
+SUMMARY:Deux rives — Festival France–Laos 2026
+DESCRIPTION:Un duo franco-lao sur ce qui sépare et ce qui relie.\n\nhttp
+ s://algilthegreat.github.io/fr/evenements/deux-rives-luang-prabang
+LOCATION:Institut français du Laos — Luang Prabang\, Centre-ville\, Lu
+ ang Prabang\, Luang Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/deux-rives-luang-praban
+ g
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-tissage-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261108T023000Z
+DTEND:20261108T053000Z
+SUMMARY:Atelier tissage & motifs — Festival France–Laos 2026
+DESCRIPTION:Créer son propre motif inspiré du sinh traditionnel.\n\nhtt
+ ps://algilthegreat.github.io/fr/evenements/atelier-tissage-luang-prabang
+LOCATION:Galerie Sisavangvong\, Route Sisavangvong\, Luang Prabang\, Luan
+ g Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/atelier-tissage-luang-p
+ rabang
+GEO:19.8893;102.1349
+END:VEVENT
+BEGIN:VEVENT
+UID:diner-a-quatre-mains@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261108T120000Z
+DTEND:20261108T150000Z
+SUMMARY:Dîner à quatre mains — Festival France–Laos 2026
+DESCRIPTION:Sengdao Keola et Paul Auger signent un menu Mékong–Atlanti
+ que.\n\nhttps://algilthegreat.github.io/fr/evenements/diner-a-quatre-mai
+ ns
+LOCATION:Jardin des Saveurs\, Ban Wat That\, Luang Prabang\, Luang Praban
+ g\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/diner-a-quatre-mains
+GEO:19.8876;102.1338
+END:VEVENT
+BEGIN:VEVENT
+UID:lecture-bilingue-luang-prabang@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261109T100000Z
+DTEND:20261109T113000Z
+SUMMARY:Lecture bilingue : paroles de fleuve — Festival France–Laos 2
+ 026
+DESCRIPTION:Textes français et lao lus en regard\, pour clore la semaine
+  à Luang Prabang.\n\nhttps://algilthegreat.github.io/fr/evenements/lect
+ ure-bilingue-luang-prabang
+LOCATION:Institut français du Laos — Luang Prabang\, Centre-ville\, Lu
+ ang Prabang\, Luang Prabang\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/lecture-bilingue-luang-
+ prabang
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:soiree-ouverture-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261110T120000Z
+DTEND:20261110T150000Z
+SUMMARY:Soirée d’ouverture à Vientiane — Festival France–Laos 202
+ 6
+DESCRIPTION:Le festival arrive dans la capitale avec un grand concert gra
+ tuit au bord du Mékong.\n\nhttps://algilthegreat.github.io/fr/evenement
+ s/soiree-ouverture-vientiane
+LOCATION:Parc Chao Anouvong\, Quai Fa Ngum\, Vientiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/soiree-ouverture-vienti
+ ane
+GEO:17.9617;102.6038
+END:VEVENT
+BEGIN:VEVENT
+UID:exposition-lumieres-du-mekong-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261122
+SUMMARY:Lumières du Mékong — Vientiane — Festival France–Laos 202
+ 6
+DESCRIPTION:L’exposition de Thomas Girard s’installe au Musée nation
+ al.\n\nhttps://algilthegreat.github.io/fr/evenements/exposition-lumieres
+ -du-mekong-vientiane
+LOCATION:Musée national du Laos\, Vientiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/exposition-lumieres-du-
+ mekong-vientiane
+GEO:17.9752;102.6305
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-photographie-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261111T020000Z
+DTEND:20261111T050000Z
+SUMMARY:Atelier photo : regarder le fleuve — Festival France–Laos 202
+ 6
+DESCRIPTION:Balade photographique sur les berges avec Thomas Girard.\n\nh
+ ttps://algilthegreat.github.io/fr/evenements/atelier-photographie-vienti
+ ane
+LOCATION:Institut français du Laos — Vientiane\, Avenue Lang Xang\, Vi
+ entiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/atelier-photographie-vi
+ entiane
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:film-le-fleuve-et-la-memoire@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261111T120000Z
+DTEND:20261111T140000Z
+SUMMARY:Le Fleuve et la Mémoire — avant-première — Festival France
+ –Laos 2026
+DESCRIPTION:Le nouveau documentaire de Julien Moreau-Ferrand\, en sa pré
+ sence.\n\nhttps://algilthegreat.github.io/fr/evenements/film-le-fleuve-e
+ t-la-memoire
+LOCATION:Ciné-club des Berges\, Quai Fa Ngum\, Vientiane\, Vientiane\, L
+ aos
+URL:https://algilthegreat.github.io/fr/evenements/film-le-fleuve-et-la-me
+ moire
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:exposition-tisser-demain@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261122
+SUMMARY:Tisser demain — Festival France–Laos 2026
+DESCRIPTION:Objets contemporains nés de la rencontre entre designers fra
+ nçais et tisserandes lao.\n\nhttps://algilthegreat.github.io/fr/eveneme
+ nts/exposition-tisser-demain
+LOCATION:Galerie Lang Xang\, Avenue Lang Xang\, Vientiane\, Vientiane\, L
+ aos
+URL:https://algilthegreat.github.io/fr/evenements/exposition-tisser-demai
+ n
+GEO:17.9702;102.6152
+END:VEVENT
+BEGIN:VEVENT
+UID:table-ronde-traduire-entre-francais-et-lao@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261112T080000Z
+DTEND:20261112T100000Z
+SUMMARY:Table ronde : traduire entre français et lao — Festival France
+ –Laos 2026
+DESCRIPTION:Ce que la traduction fait aux textes — et aux cultures.\n\n
+ https://algilthegreat.github.io/fr/evenements/table-ronde-traduire-entre
+ -francais-et-lao
+LOCATION:Université nationale du Laos\, Campus de Dongdok\, Vientiane\, 
+ Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/table-ronde-traduire-en
+ tre-francais-et-lao
+GEO:18.038;102.644
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-clemence-arnaud-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261112T120000Z
+DTEND:20261112T150000Z
+SUMMARY:Concert — Clémence Arnaud — Festival France–Laos 2026
+DESCRIPTION:Piano préparé\, synthèses et field recordings du Mékong.\
+ n\nhttps://algilthegreat.github.io/fr/evenements/concert-clemence-arnaud
+ -vientiane
+LOCATION:Institut français du Laos — Vientiane\, Avenue Lang Xang\, Vi
+ entiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/concert-clemence-arnaud
+ -vientiane
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:rencontres-professionnelles-industries-culturelles@festival-france-la
+ os-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261113T020000Z
+DTEND:20261113T100000Z
+SUMMARY:Rencontres professionnelles des industries culturelles — Festiv
+ al France–Laos 2026
+DESCRIPTION:Une journée de rendez-vous B2B\, de conférences et de netwo
+ rking entre opérateurs français et lao.\n\nhttps://algilthegreat.githu
+ b.io/fr/evenements/rencontres-professionnelles-industries-culturelles
+LOCATION:Institut français du Laos — Vientiane\, Avenue Lang Xang\, Vi
+ entiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/rencontres-professionne
+ lles-industries-culturelles
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:film-mousson-courts-metrages@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261113T120000Z
+DTEND:20261113T134500Z
+SUMMARY:Mousson + courts métrages lao — Festival France–Laos 2026
+DESCRIPTION:Une sélection de la jeune création cinématographique lao.\
+ n\nhttps://algilthegreat.github.io/fr/evenements/film-mousson-courts-met
+ rages
+LOCATION:Ciné-club des Berges\, Quai Fa Ngum\, Vientiane\, Vientiane\, L
+ aos
+URL:https://algilthegreat.github.io/fr/evenements/film-mousson-courts-met
+ rages
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:masterclass-cinema@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261114T030000Z
+DTEND:20261114T053000Z
+SUMMARY:Masterclass cinéma : filmer le réel — Festival France–Laos 
+ 2026
+DESCRIPTION:Deux cinéastes partagent leurs méthodes avec les étudiants
+  et jeunes réalisateurs.\n\nhttps://algilthegreat.github.io/fr/evenemen
+ ts/masterclass-cinema
+LOCATION:Institut français du Laos — Vientiane\, Avenue Lang Xang\, Vi
+ entiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/masterclass-cinema
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:le-petit-elephant-de-lumiere@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261114T090000Z
+DTEND:20261114T100000Z
+SUMMARY:Le petit éléphant de lumière — Festival France–Laos 2026
+DESCRIPTION:Théâtre d’ombres sans paroles\, dès 4 ans.\n\nhttps://al
+ gilthegreat.github.io/fr/evenements/le-petit-elephant-de-lumiere
+LOCATION:Salle nationale de la culture\, Centre-ville\, Vientiane\, Vient
+ iane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/le-petit-elephant-de-lu
+ miere
+GEO:17.9648;102.6088
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-creation-numerique@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261115T030000Z
+DTEND:20261115T060000Z
+SUMMARY:Atelier création numérique — Festival France–Laos 2026
+DESCRIPTION:Créer des visuels qui réagissent au son.\n\nhttps://algilth
+ egreat.github.io/fr/evenements/atelier-creation-numerique
+LOCATION:Institut français du Laos — Vientiane\, Avenue Lang Xang\, Vi
+ entiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/atelier-creation-numeri
+ que
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:deux-rives-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261115T123000Z
+DTEND:20261115T134500Z
+SUMMARY:Deux rives — Vientiane — Festival France–Laos 2026
+DESCRIPTION:Le duo franco-lao sur la grande scène de Vientiane.\n\nhttps
+ ://algilthegreat.github.io/fr/evenements/deux-rives-vientiane
+LOCATION:Salle nationale de la culture\, Centre-ville\, Vientiane\, Vient
+ iane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/deux-rives-vientiane
+GEO:17.9648;102.6088
+END:VEVENT
+BEGIN:VEVENT
+UID:conference-le-francais-au-laos@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261116T100000Z
+DTEND:20261116T113000Z
+SUMMARY:Le français au Laos\, hier et demain — Festival France–Laos 
+ 2026
+DESCRIPTION:Enseignants\, étudiants et chercheurs sur la place du franç
+ ais dans l’éducation lao.\n\nhttps://algilthegreat.github.io/fr/evene
+ ments/conference-le-francais-au-laos
+LOCATION:Université nationale du Laos\, Campus de Dongdok\, Vientiane\, 
+ Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/conference-le-francais-
+ au-laos
+GEO:18.038;102.644
+END:VEVENT
+BEGIN:VEVENT
+UID:film-les-enfants-du-bac@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261116T120000Z
+DTEND:20261116T133000Z
+SUMMARY:Les Enfants du bac — Festival France–Laos 2026
+DESCRIPTION:Documentaire sur les enfants qui traversent le fleuve chaque 
+ jour pour aller à l’école.\n\nhttps://algilthegreat.github.io/fr/eve
+ nements/film-les-enfants-du-bac
+LOCATION:Ciné-club des Berges\, Quai Fa Ngum\, Vientiane\, Vientiane\, L
+ aos
+URL:https://algilthegreat.github.io/fr/evenements/film-les-enfants-du-bac
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:mekong-digital@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261117T130000Z
+DTEND:20261117T140000Z
+SUMMARY:Mékong digital — Festival France–Laos 2026
+DESCRIPTION:Performance audiovisuelle immersive projetée sur les berges 
+ du fleuve.\n\nhttps://algilthegreat.github.io/fr/evenements/mekong-digit
+ al
+LOCATION:Parc Chao Anouvong\, Quai Fa Ngum\, Vientiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/mekong-digital
+GEO:17.9617;102.6038
+END:VEVENT
+BEGIN:VEVENT
+UID:cine-jeunesse-le-petit-bateau-de-papier@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261118T080000Z
+DTEND:20261118T090000Z
+SUMMARY:Ciné-jeunesse : Le Petit Bateau de papier — Festival France–
+ Laos 2026
+DESCRIPTION:Film d’animation sans paroles\, dès 3 ans\, suivi d’un a
+ telier pliage.\n\nhttps://algilthegreat.github.io/fr/evenements/cine-jeu
+ nesse-le-petit-bateau-de-papier
+LOCATION:Ciné-club des Berges\, Quai Fa Ngum\, Vientiane\, Vientiane\, L
+ aos
+URL:https://algilthegreat.github.io/fr/evenements/cine-jeunesse-le-petit-
+ bateau-de-papier
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-cuisine-franco-lao@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261118T100000Z
+DTEND:20261118T123000Z
+SUMMARY:Atelier cuisine franco-lao — Festival France–Laos 2026
+DESCRIPTION:Cuisiner un menu croisé avec deux chefs.\n\nhttps://algilthe
+ great.github.io/fr/evenements/atelier-cuisine-franco-lao
+LOCATION:Maison des Saveurs\, Rue Setthathirath\, Vientiane\, Vientiane\,
+  Laos
+URL:https://algilthegreat.github.io/fr/evenements/atelier-cuisine-franco-
+ lao
+GEO:17.9641;102.6079
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-contes-et-ombres@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261119T070000Z
+DTEND:20261119T083000Z
+SUMMARY:Contes et ombres — atelier jeunesse — Festival France–Laos 
+ 2026
+DESCRIPTION:Écouter un conte lao\, puis le mettre en ombres.\n\nhttps://
+ algilthegreat.github.io/fr/evenements/atelier-contes-et-ombres
+LOCATION:Institut français du Laos — Vientiane\, Avenue Lang Xang\, Vi
+ entiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/atelier-contes-et-ombre
+ s
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:debat-villes-durables@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261119T110000Z
+DTEND:20261119T123000Z
+SUMMARY:Débat : quelles villes durables pour demain ? — Festival Franc
+ e–Laos 2026
+DESCRIPTION:Architectes\, urbanistes et designers débattent de la ville 
+ de demain.\n\nhttps://algilthegreat.github.io/fr/evenements/debat-villes
+ -durables
+LOCATION:Institut français du Laos — Vientiane\, Avenue Lang Xang\, Vi
+ entiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/debat-villes-durables
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:film-les-rizieres-du-ciel-vientiane@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261120T120000Z
+DTEND:20261120T134500Z
+SUMMARY:Les Rizières du ciel — reprise — Festival France–Laos 2026
+DESCRIPTION:Seconde projection du film de Mali Douangmala\, à Vientiane.
+ \n\nhttps://algilthegreat.github.io/fr/evenements/film-les-rizieres-du-c
+ iel-vientiane
+LOCATION:Ciné-club des Berges\, Quai Fa Ngum\, Vientiane\, Vientiane\, L
+ aos
+URL:https://algilthegreat.github.io/fr/evenements/film-les-rizieres-du-ci
+ el-vientiane
+GEO:17.9632;102.6052
+END:VEVENT
+BEGIN:VEVENT
+UID:concert-de-cloture@festival-france-laos-2026
+DTSTAMP:20260929T160051Z
+DTSTART:20261121T120000Z
+DTEND:20261121T160000Z
+SUMMARY:Grand concert de clôture — Festival France–Laos 2026
+DESCRIPTION:Tous les musiciens du festival réunis pour une dernière nui
+ t au bord du Mékong.\n\nhttps://algilthegreat.github.io/fr/evenements/c
+ oncert-de-cloture
+LOCATION:Parc Chao Anouvong\, Quai Fa Ngum\, Vientiane\, Vientiane\, Laos
+URL:https://algilthegreat.github.io/fr/evenements/concert-de-cloture
+GEO:17.9617;102.6038
+END:VEVENT
+END:VCALENDAR
