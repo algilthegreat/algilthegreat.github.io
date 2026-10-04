@@ -10,9 +10,11 @@ export const generateMetadata = pageMetadata('artists', '/artistes', (d) => d.ar
 export default async function ArtistsPage({ params }) {
   const { locale } = await params
   const dict = getDictionary(locale)
+  // Ordre alphabétique par nom de famille (sortName), ou par nom pour les collectifs
+  const key = (a) => a.sortName ?? (a.kind === 'collective' ? a.name : a.name.split(' ').slice(1).join(' ') || a.name)
   const artists = getArtists()
+    .sort((a, b) => key(a).localeCompare(key(b), 'fr', { sensitivity: 'base' }))
     .map((a) => toArtistCard(a, locale))
-    .sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }))
   return (
     <>
       <PageHero

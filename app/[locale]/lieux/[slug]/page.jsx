@@ -8,6 +8,7 @@ import ArtistCard from '@/components/ArtistCard'
 import MapView from '@/components/MapView'
 import Section from '@/components/Section'
 import JsonLd from '@/components/JsonLd'
+import CitySocial from '@/components/CitySocial'
 import { getDictionary } from '@/lib/i18n'
 import { locales, tr } from '@/lib/i18n/config'
 import { getEvents, getVenue, getVenues, getVenueArtists, venueKinds, toArtistCard, toEventCard } from '@/lib/data'
@@ -78,6 +79,7 @@ export default async function VenuePage({ params }) {
           <a href={`https://www.google.com/maps/search/?api=1&query=${venue.geo.join(',')}`} target="_blank" rel="noopener noreferrer" className="btn-outline mt-4 w-full">
             <Navigation className="size-4" aria-hidden="true" /> {dict.common.openInMaps}
           </a>
+          <CitySocial city={venue.city} locale={locale} label={dict.common.follow} className="mt-6 border-t-2 border-ink/10 pt-5" />
         </aside>
       </div>
 

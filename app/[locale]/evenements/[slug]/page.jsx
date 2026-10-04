@@ -13,6 +13,7 @@ import EventCard from '@/components/EventCard'
 import MapView from '@/components/MapView'
 import Section from '@/components/Section'
 import JsonLd from '@/components/JsonLd'
+import CitySocial from '@/components/CitySocial'
 import { getDictionary } from '@/lib/i18n'
 import { locales, tr } from '@/lib/i18n/config'
 import { getArtist, getEvent, getEvents, getRelatedEvents, eventTypes, toArtistCard, toEventCard } from '@/lib/data'
@@ -202,6 +203,7 @@ export default async function EventPage({ params }) {
               <CalendarButton event={card.cal} locale={locale} labels={common} variant="solid" className="flex-1" />
               <AddToFestival slug={slug} labels={common} compact />
             </div>
+            <CitySocial city={event.city} locale={locale} label={common.follow} className="mt-6 border-t-2 border-ink/10 pt-5" />
           </div>
         </aside>
       </div>

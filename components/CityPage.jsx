@@ -13,6 +13,7 @@ import VenueCard from './VenueCard'
 import MapView from './MapView'
 import EventCard from './EventCard'
 import JsonLd from './JsonLd'
+import CitySocial from './CitySocial'
 import { fill } from '@/lib/i18n'
 import { tr } from '@/lib/i18n/config'
 import { cities, getArtists, getEvents, getVenues, venueKinds, toArtistCard, toEventCard } from '@/lib/data'
@@ -73,6 +74,7 @@ export default function CityPage({ city, locale, dict }) {
               </div>
             ))}
           </dl>
+          <CitySocial city={city} locale={locale} label={dict.common.follow} dark className="mt-10" />
         </div>
       </header>
 
