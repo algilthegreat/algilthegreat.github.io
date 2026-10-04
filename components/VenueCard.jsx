@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { MapPin, ArrowUpRight } from 'lucide-react'
 import Poster from './Poster'
 import GlareHover from './reactbits/GlareHover'
@@ -10,7 +11,11 @@ export default function VenueCard({ venue, locale, eventCount, labels, headingLe
     <GlareHover className="h-full">
       <article className="group relative flex h-full flex-col border-2 border-ink bg-paper">
         <div className="aspect-[16/9] overflow-hidden border-b-2 border-ink">
-          <Poster seed={venue.slug} color={venue.city.color} ratio={16 / 9} />
+          {venue.photo ? (
+            <Image src={venue.photo} alt="" width={800} height={450} sizes="(min-width: 1024px) 33vw, 100vw" className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          ) : (
+            <Poster seed={venue.slug} color={venue.city.color} ratio={16 / 9} />
+          )}
         </div>
         <div className="flex flex-1 flex-col gap-2 p-5">
           <p className="kicker text-blue">{venueKindsLabel(venue.kind, locale)}</p>

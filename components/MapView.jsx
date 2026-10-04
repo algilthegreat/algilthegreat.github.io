@@ -1,6 +1,6 @@
 'use client'
 /**
- * Carte interactive (Leaflet + fonds CARTO/OpenStreetMap). Chargée côté client uniquement.
+ * Carte interactive (Leaflet + fonds OpenStreetMap, sans clé d’API). Chargée côté client uniquement.
  * venues = [{ slug, name, kind, cityName, cityColor, geo, count, href }]
  */
 import { useEffect, useMemo, useState } from 'react'

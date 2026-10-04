@@ -29,6 +29,8 @@ export default function CityPage({ city, locale, dict }) {
   const venues = getVenues({ city: city.slug })
   const other = cities.find((c) => c.slug !== city.slug)
   const opening = events.find((e) => e.special === 'opening')
+  // Expositions mises en avant qui ouvrent le même jour (vernissage pendant la soirée d'ouverture)
+  const openingExtras = opening ? events.filter((e) => e.featured && e.allDay && e.days.includes(opening.start.slice(0, 10))) : []
   const count = (types) => events.filter((e) => types.includes(e.type)).length
 
   return (
@@ -44,14 +46,14 @@ export default function CityPage({ city, locale, dict }) {
           subEvent: events.map((e) => ({ '@id': `${SITE_URL}/${locale}/evenements/${e.slug}#event` })),
         }}
       />
-      <header className="on-dark relative isolate overflow-hidden bg-ink text-paper">
-        {city.photo && (
+      <header className="on-dark relative isolate overflow-hidden bg-ink text-paper" style={city.heroColor ? { background: city.heroColor } : undefined}>
+        {city.photo && !city.heroColor && (
           <>
             <Image src={city.photo} alt="" fill priority sizes="100vw" className="-z-10 object-cover opacity-55" />
             <div aria-hidden="true" className="absolute inset-0 -z-10 bg-gradient-to-r from-ink via-ink/70 to-ink/10" />
           </>
         )}
-        <Aurora colors={[city.color, '#3558A2', other.color, '#FFB7AE']} className={city.photo ? 'opacity-40 mix-blend-screen' : ''} />
+        {!city.heroColor && <Aurora colors={[city.color, '#3558A2', other.color, '#FFB7AE']} className={city.photo ? 'opacity-40 mix-blend-screen' : ''} />}
         <div className="container-site relative pt-8 pb-16 md:pb-24">
           <Breadcrumbs dark items={crumbs(locale, dict, [dict.cities.title, '/villes'], [name, `/${city.slug}`])} />
           <p className="kicker mt-16" style={{ color: city.color }}>
@@ -80,9 +82,13 @@ export default function CityPage({ city, locale, dict }) {
 
       {opening && (
         <Section id="inauguration" tone="blue" kicker="03.11.2026" title={dict.city.opening} action={{ href: `/${locale}/programme/3-novembre`, label: dict.common.readMore }}>
-          <div className="max-w-xl">
-            <EventCard card={toEventCard(opening, locale)} locale={locale} labels={dict.common} />
-          </div>
+          <ul className="grid max-w-4xl gap-6 md:grid-cols-2">
+            {[opening, ...openingExtras].map((e) => (
+              <li key={e.slug}>
+                <EventCard card={toEventCard(e, locale)} locale={locale} labels={dict.common} />
+              </li>
+            ))}
+          </ul>
         </Section>
       )}
 
@@ -90,10 +96,10 @@ export default function CityPage({ city, locale, dict }) {
         <h2 id="city-programme" className="display mb-4 text-[clamp(2.2rem,5.5vw,4.75rem)] uppercase">{dict.city.programme}</h2>
         <ul className="mb-8 flex flex-wrap gap-3 text-sm font-bold uppercase">
           {[
-            [dict.city.exhibitions, ['exposition', 'design']],
+            [dict.city.exhibitions, ['exposition']],
             [dict.city.concerts, ['concert']],
             [dict.city.cinema, ['cinema']],
-            [dict.city.workshops, ['atelier', 'gastronomie', 'jeunesse']],
+            [dict.city.workshops, ['atelier', 'jeunesse']],
             [dict.city.meetings, ['conference', 'debat', 'rencontre-pro', 'education']],
           ].map(([label, types]) => (
             <li key={label} className="border-2 border-ink px-3 py-2">

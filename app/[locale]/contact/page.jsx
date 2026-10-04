@@ -13,8 +13,8 @@ export const generateMetadata = pageMetadata('contact', '/contact', (d) => d.con
 
 // ⚠️ Coordonnées à confirmer par l'Institut français du Laos avant publication.
 const contacts = {
-  vientiane: { venue: 'institut-francais-vientiane', email: 'contact@festival-france-laos.org', phone: '+856 21 000 000' },
-  lpb: { venue: 'institut-francais-luang-prabang', email: 'luangprabang@festival-france-laos.org', phone: '+856 71 000 000' },
+  vientiane: { venue: 'institut-francais-vientiane', email: 'bonjour@if-laos.org' },
+  lpb: { venue: 'institut-francais-luang-prabang', email: 'secretariat.lpb@if-laos.org', phone: '+856 20 5552 6474' },
 }
 
 export default async function ContactPage({ params }) {
@@ -44,9 +44,9 @@ export default async function ContactPage({ params }) {
               <p className="kicker relative text-blue">{city}</p>
               <h2 id={`c-${info.venue}`} className="display relative mt-2 text-4xl uppercase">{name}</h2>
               <ul className="relative mt-6 space-y-3 text-lg">
-                <li className="flex gap-3"><MapPin className="mt-1 size-5 shrink-0 text-blue" aria-hidden="true" />{venue.address}</li>
+                <li className="flex gap-3 whitespace-pre-line"><MapPin className="mt-1 size-5 shrink-0 text-blue" aria-hidden="true" />{venue.postalAddress ?? venue.address}</li>
                 <li className="flex gap-3"><Mail className="mt-1 size-5 shrink-0 text-blue" aria-hidden="true" /><a href={`mailto:${info.email}`} className="underline underline-offset-4">{info.email}</a></li>
-                <li className="flex gap-3"><Phone className="mt-1 size-5 shrink-0 text-blue" aria-hidden="true" />{info.phone}</li>
+                {info.phone && <li className="flex gap-3"><Phone className="mt-1 size-5 shrink-0 text-blue" aria-hidden="true" /><a href={`tel:${info.phone.replace(/s/g, '')}`} className="underline underline-offset-4">{info.phone}</a></li>}
                 <li className="text-sm text-ink/60">{tr(venue.hours, locale)} · {c.verify}</li>
               </ul>
             </section>

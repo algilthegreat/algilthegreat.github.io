@@ -10,7 +10,6 @@ import RotatingText from '@/components/reactbits/RotatingText'
 import CountUp from '@/components/reactbits/CountUp'
 import AnimatedContent from '@/components/reactbits/AnimatedContent'
 import GradientText from '@/components/reactbits/GradientText'
-import HeroRectangles from '@/components/HeroRectangles'
 import Countdown from '@/components/Countdown'
 import Timeline from '@/components/Timeline'
 import Section from '@/components/Section'
@@ -54,7 +53,7 @@ export default async function HomePage({ params }) {
   const dict = getDictionary(locale)
   const { home, common } = dict
   const upcoming = getUpcomingEvents(6).map((e) => toEventCard(e, locale))
-  const artists = getArtists().slice(0, 8).map((a) => toArtistCard(a, locale))
+  const artists = getArtists().filter((a) => a.eventSlugs.length > 0).slice(0, 8).map((a) => toArtistCard(a, locale))
   const news = getNews().slice(0, 3)
   const colors = Object.values(palette)
 
@@ -64,10 +63,6 @@ export default async function HomePage({ params }) {
 
       {/* ================================ HERO ================================ */}
       <section className="on-dark relative isolate flex min-h-[calc(100svh-4.5rem)] items-center overflow-hidden bg-ink text-paper">
-        {/* Rectangles aux couleurs secondaires, en arrière-plan à droite */}
-        <div className="pointer-events-none absolute right-[3%] bottom-[8%] hidden w-[min(32vw,30rem)] lg:block">
-          <HeroRectangles />
-        </div>
         <div className="container-site relative py-16">
           <div>
             <p className="kicker mb-6 text-tournesol">{home.heroKicker}</p>

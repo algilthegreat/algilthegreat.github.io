@@ -10,7 +10,9 @@ export const generateMetadata = pageMetadata('artists', '/artistes', (d) => d.ar
 export default async function ArtistsPage({ params }) {
   const { locale } = await params
   const dict = getDictionary(locale)
-  const artists = getArtists().map((a) => toArtistCard(a, locale))
+  const artists = getArtists()
+    .map((a) => toArtistCard(a, locale))
+    .sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }))
   return (
     <>
       <PageHero
@@ -26,8 +28,8 @@ export default async function ArtistsPage({ params }) {
           locale={locale}
           labels={{ ...dict.artists, disciplineLegend: dict.nav.disciplines }}
           common={dict.common}
-          roles={roles.map((r) => ({ slug: r.slug, label: tr(r.label, locale) }))}
-          disciplines={disciplines.map((d) => ({ slug: d.slug, label: tr(d.label, locale), color: d.color }))}
+          roles={roles.filter((r) => r.slug !== 'designer').map((r) => ({ slug: r.slug, label: tr(r.label, locale) }))}
+          disciplines={disciplines.filter((d) => d.slug !== 'gastronomie').map((d) => ({ slug: d.slug, label: tr(d.label, locale), color: d.color }))}
         />
       </div>
     </>

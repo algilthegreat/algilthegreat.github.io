@@ -28,7 +28,8 @@ export default function ArtistExplorer({ artists, locale, labels, roles, discipl
     window.history.replaceState(null, '', `${window.location.pathname}${qs ? `?${qs}` : ''}`)
   }, [discipline, country, role])
 
-  const byCountry = (a, c) => !c || a.country === c || a.country === 'FR-LA'
+  // Les profils binationaux (FR-LA, SE-FR) apparaissent dans le filtre de chacun de leurs pays
+  const byCountry = (a, c) => !c || a.country.split('-').includes(c)
   const matches = (a, skip) =>
     (skip === 'country' || byCountry(a, country)) &&
     (skip === 'kind' || !kind || a.kind === kind) &&

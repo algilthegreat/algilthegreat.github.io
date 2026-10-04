@@ -43,14 +43,6 @@
     "author": "Cosmin Serban",
     "url": "https://unsplash.com/photos/2fn_pxLMS9g"
   },
-  "/images/artistes/sengdao-keola.jpg": {
-    "author": "Marco J Haenssgen",
-    "url": "https://unsplash.com/photos/NtztCP6p4XE"
-  },
-  "/images/artistes/paul-auger.jpg": {
-    "author": "Jason Leung",
-    "url": "https://unsplash.com/photos/-eKZLpj7U0E"
-  },
   "/images/evenements/inauguration-festival-france-laos-2026.jpg": {
     "author": "Teodor Kuduschiev",
     "url": "https://unsplash.com/photos/4gYBEa-7syM"
@@ -78,10 +70,6 @@
   "/images/evenements/atelier-tissage-luang-prabang.jpg": {
     "author": "Nickolas Nikolic",
     "url": "https://unsplash.com/photos/_KCrSolz6FI"
-  },
-  "/images/evenements/diner-a-quatre-mains.jpg": {
-    "author": "Urban Gyllström",
-    "url": "https://unsplash.com/photos/MaWMfm-HCqQ"
   },
   "/images/evenements/lecture-bilingue-luang-prabang.jpg": {
     "author": "Sincerely Media",
@@ -123,10 +111,6 @@
     "author": "Brands&People",
     "url": "https://unsplash.com/photos/br2HgQuvq6I"
   },
-  "/images/evenements/le-petit-elephant-de-lumiere.jpg": {
-    "author": "Topi Pigula",
-    "url": "https://unsplash.com/photos/o-MCkd-eRs0"
-  },
   "/images/evenements/deux-rives-vientiane.jpg": {
     "author": "Samantha Weisburg",
     "url": "https://unsplash.com/photos/hFTcxZFsG6g"
@@ -147,10 +131,6 @@
     "author": "Stefan Szankowski",
     "url": "https://unsplash.com/photos/bql_ixLkqcY"
   },
-  "/images/evenements/atelier-cuisine-franco-lao.jpg": {
-    "author": "Or Hakim",
-    "url": "https://unsplash.com/photos/S2Eql9vHN3o"
-  },
   "/images/evenements/cine-jeunesse-le-petit-bateau-de-papier.jpg": {
     "author": "Janis Fasel",
     "url": "https://unsplash.com/photos/pF-llHgCZ5U"
@@ -158,10 +138,6 @@
   "/images/evenements/debat-villes-durables.jpg": {
     "author": "Gábor Molnár",
     "url": "https://unsplash.com/photos/Y7ufx8R8PM0"
-  },
-  "/images/evenements/atelier-contes-et-ombres.jpg": {
-    "author": "Monica Valls",
-    "url": "https://unsplash.com/photos/57kTxx2-Qjs"
   },
   "/images/evenements/film-les-rizieres-du-ciel-vientiane.jpg": {
     "author": "Fajruddin Mudzakkir",
@@ -178,10 +154,6 @@
   "/images/artistes/somphone-vilay.jpg": {
     "author": "Annie Spratt",
     "url": "https://unsplash.com/photos/ahoVacMUrj8"
-  },
-  "/images/artistes/compagnie-lanterne.jpg": {
-    "author": "Kevin Charit",
-    "url": "https://unsplash.com/photos/wifbhbULhEY"
   },
   "/images/artistes/noy-phetsavanh.jpg": {
     "author": "Nutsata Dhunyalakvanich",
@@ -318,5 +290,13 @@
   "/images/galerie/artistes-sf78w_E13js.jpg": {
     "author": "Life on the road",
     "url": "https://unsplash.com/photos/sf78w_E13js"
+  },
+  "/images/evenements/deambulation-maisons-luang-prabang.jpg": {
+    "author": "CJ",
+    "url": "https://unsplash.com/photos/fFL5K3A3uGo"
+  },
+  "/images/evenements/atelier-aquarelle-maisons-luang-prabang.jpg": {
+    "author": "Hongbin",
+    "url": "https://unsplash.com/photos/t7mSUQcTPsY"
   }
 }

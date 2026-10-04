@@ -21,7 +21,6 @@ const staticPaths = [
   ['/rencontres', 0.6, 'weekly'],
   ['/ateliers', 0.6, 'weekly'],
   ['/jeunesse', 0.6, 'weekly'],
-  ['/professionnels', 0.5, 'monthly'],
   ['/actualites', 0.7, 'daily'],
   ['/galerie', 0.5, 'weekly'],
   ['/videos', 0.5, 'weekly'],

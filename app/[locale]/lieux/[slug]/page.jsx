@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { MapPin, Clock, Accessibility, Navigation, Bus } from 'lucide-react'
 import PageHero from '@/components/PageHero'
@@ -49,7 +50,11 @@ export default async function VenuePage({ params }) {
         crumbs={crumbs(locale, dict, [dict.venues.title, '/lieux'], [name, `/lieux/${slug}`])}
       />
       <div className="aspect-[21/9] max-h-[60vh] w-full overflow-hidden border-y-2 border-ink">
-        <Poster seed={`${slug}-hero`} color={venue.city.color} ratio={21 / 9} title={name} />
+        {venue.photo ? (
+          <Image src={venue.photo} alt={name} width={2100} height={900} priority sizes="100vw" className="h-full w-full object-cover" />
+        ) : (
+          <Poster seed={`${slug}-hero`} color={venue.city.color} ratio={21 / 9} title={name} />
+        )}
       </div>
 
       <div className="container-site grid gap-12 py-16 lg:grid-cols-[1fr_24rem]">

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { MapPin, Clock, Ticket, ArrowUpRight } from 'lucide-react'
+import { MapPin, Clock, Ticket, ArrowUpRight, User } from 'lucide-react'
 import Poster from './Poster'
 import AddToFestival from './AddToFestival'
 import CalendarButton from './CalendarButton'
@@ -17,7 +17,7 @@ export default function EventCard({ card, locale, labels, headingLevel = 3, prio
   const multiDay = card.start.slice(0, 10) !== card.end.slice(0, 10)
 
   return (
-    <SpotlightCard as="article" className="flex h-full flex-col border-2 border-ink bg-paper" color={`${card.color}55`}>
+    <SpotlightCard as="article" className="flex h-full flex-col border-2 border-ink bg-paper text-ink" color={`${card.color}55`}>
       <Link href={href} className="relative block aspect-[4/3] overflow-hidden" tabIndex={-1} aria-hidden="true">
         <div className="h-full transition-transform duration-700 ease-out group-hover/spot:scale-105">
           {card.photo ? (
@@ -52,6 +52,12 @@ export default function EventCard({ card, locale, labels, headingLevel = 3, prio
               <strong className="text-ink">{card.cityName}</strong> · {card.venueName}
             </span>
           </li>
+          {card.artists?.length > 0 && (
+            <li className="flex items-start gap-2">
+              <User className="mt-0.5 size-4 shrink-0 text-blue" aria-hidden="true" />
+              <span>{card.artists.map((a) => (a.countryLabel ? `${a.name} (${a.countryLabel})` : a.name)).join(', ')}</span>
+            </li>
+          )}
           <li className="flex items-center gap-2">
             <Clock className="size-4 shrink-0 text-blue" aria-hidden="true" />
             {card.allDay ? labels.allDay : formatTimeRange(card.start, card.end)}

@@ -20,7 +20,7 @@ import { buildMetadata, eventLd } from '@/lib/seo'
 import { crumbs } from '@/lib/page'
 import { formatTimeRange, formatPrice } from '@/lib/format'
 
-const SLUG = 'inauguration-festival-france-laos-2026'
+const SLUG = 'soiree-veronique-de-lavenere'
 
 export async function generateMetadata({ params }) {
   const { locale } = await params
@@ -34,7 +34,7 @@ export default async function OpeningPage({ params }) {
   const { opening, common } = dict
   const event = getEvent(SLUG)
   const card = toEventCard(event, locale)
-  const exhibition = getEvent('exposition-lumieres-du-mekong-luang-prabang')
+  const exhibition = getEvent('exposition-les-mains-du-maitre')
   const others = getEvents({ city: 'luang-prabang' })
     .filter((e) => e.slug !== SLUG && e.slug !== exhibition.slug)
     .slice(0, 3)
@@ -69,39 +69,31 @@ export default async function OpeningPage({ params }) {
         )}
       </div>
 
-      <Section id="soiree" title={opening.scheduleTitle}>
-        <ol className="border-t-2 border-ink">
-          {event.schedule.map((s, i) => (
-            <AnimatedContent as="li" key={s.time} delay={i * 0.05} className="grid grid-cols-[6rem_1fr] items-baseline gap-6 border-b-2 border-ink py-6 md:grid-cols-[12rem_1fr]">
-              <span className="display text-4xl text-blue md:text-6xl">{s.time}</span>
-              <span className="text-xl font-black uppercase md:text-3xl">{tr(s.label, locale)}</span>
-            </AnimatedContent>
-          ))}
-        </ol>
-      </Section>
+      {event.schedule?.length > 0 && (
+        <Section id="soiree" title={opening.scheduleTitle}>
+          <ol className="border-t-2 border-ink">
+            {event.schedule.map((s, i) => (
+              <AnimatedContent as="li" key={s.time} delay={i * 0.05} className="grid grid-cols-[6rem_1fr] items-baseline gap-6 border-b-2 border-ink py-6 md:grid-cols-[12rem_1fr]">
+                <span className="display text-4xl text-blue md:text-6xl">{s.time}</span>
+                <span className="text-xl font-black uppercase md:text-3xl">{tr(s.label, locale)}</span>
+              </AnimatedContent>
+            ))}
+          </ol>
+        </Section>
+      )}
 
-      <section className="bg-mist py-16 md:py-24">
-        <div className="container-site grid gap-12 md:grid-cols-2">
-          <div>
-            <h2 className="display text-5xl uppercase">{opening.speechesTitle}</h2>
-            <p className="prose-site mt-6">{opening.speechesText}</p>
-          </div>
-          <div>
-            <h2 className="display text-5xl uppercase">{opening.receptionTitle}</h2>
-            <p className="prose-site mt-6">{opening.receptionText}</p>
-          </div>
-        </div>
-      </section>
 
-      <Section id="artistes-soiree" title={opening.artistsTitle}>
-        <ul className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
-          {event.artists.map((a) => (
-            <li key={a.slug}>
-              <ArtistCard artist={toArtistCard(getArtist(a.slug), locale)} locale={locale} />
-            </li>
-          ))}
-        </ul>
-      </Section>
+      {event.artists.length > 0 && (
+        <Section id="artistes-soiree" title={opening.artistsTitle}>
+          <ul className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+            {event.artists.map((a) => (
+              <li key={a.slug}>
+                <ArtistCard artist={toArtistCard(getArtist(a.slug), locale)} locale={locale} />
+              </li>
+            ))}
+          </ul>
+        </Section>
+      )}
 
       <Section id="exposition" tone="mist" title={opening.exhibitionTitle}>
         <div className="max-w-xl">

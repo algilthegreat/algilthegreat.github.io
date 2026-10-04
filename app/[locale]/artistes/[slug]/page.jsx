@@ -64,8 +64,8 @@ export default async function ArtistPage({ params }) {
           <p className="mt-4 text-2xl font-bold">{tr(artist.tagline, locale)}</p>
         </div>
         <div className="mt-12 aspect-[21/9] max-h-[70vh] w-full overflow-hidden border-y-2 border-ink">
-          {artist.photo ? (
-            <Image src={artist.photo} alt={artist.name} width={2100} height={900} priority sizes="100vw" className="h-full w-full object-cover object-[center_30%]" />
+          {artist.bannerPhoto || artist.photo ? (
+            <Image src={artist.bannerPhoto ?? artist.photo} alt={artist.name} width={2100} height={900} priority sizes="100vw" className="h-full w-full object-cover object-[center_30%]" style={!artist.bannerPhoto && artist.photoPosition ? { objectPosition: artist.photoPosition } : undefined} />
           ) : (
             <Poster seed={`${slug}-hero`} color={artist.color} ratio={21 / 9} label={initials(artist.name)} title={artist.name} />
           )}
@@ -76,7 +76,7 @@ export default async function ArtistPage({ params }) {
         <div className="space-y-16">
           <section aria-labelledby="bio">
             <h2 id="bio" className="display text-5xl uppercase">{t.bio}</h2>
-            <p className="prose-site mt-6 text-xl">{tr(artist.bio, locale)}</p>
+            <p className="prose-site mt-6 text-xl whitespace-pre-line">{tr(artist.bio, locale)}</p>
           </section>
 
           <section aria-labelledby="parcours">
@@ -99,7 +99,7 @@ export default async function ArtistPage({ params }) {
             </blockquote>
           </section>
 
-          <section aria-labelledby="oeuvres">
+          {artist.works.length > 0 && <section aria-labelledby="oeuvres">
             <h2 id="oeuvres" className="display text-5xl uppercase">{t.works}</h2>
             <ul className="mt-6 grid grid-cols-2 gap-4">
               {artist.works.map((w) => (
@@ -111,14 +111,14 @@ export default async function ArtistPage({ params }) {
                       </div>
                       <figcaption className="p-3">
                         <span className="block font-black uppercase">{tr(w.title, locale)}</span>
-                        <span className="text-sm text-ink/60">{w.year}</span>
+                        {w.year && <span className="text-sm text-ink/60">{w.year}</span>}
                       </figcaption>
                     </figure>
                   </TiltedCard>
                 </li>
               ))}
             </ul>
-          </section>
+          </section>}
 
           <section aria-labelledby="fr-la" className="grid gap-6 md:grid-cols-2">
             <h2 id="fr-la" className="sr-only">France × Laos</h2>
@@ -145,13 +145,15 @@ export default async function ArtistPage({ params }) {
         </aside>
       </div>
 
-      <Section id="au-festival" tone="mist" kicker={t.atFestival} title={fill(t.participates, { name: artist.name })} action={{ href: `/${locale}/artistes/${slug}/agenda`, label: t.seeAgenda }}>
-        <ul className="border-t-2 border-ink">
-          {events.map((e) => (
-            <EventRow key={e.slug} card={toEventCard(e, locale)} locale={locale} labels={common} />
-          ))}
-        </ul>
-      </Section>
+      {events.length > 0 && (
+        <Section id="au-festival" tone="mist" kicker={t.atFestival} title={fill(t.participates, { name: artist.name })} action={{ href: `/${locale}/artistes/${slug}/agenda`, label: t.seeAgenda }}>
+          <ul className="border-t-2 border-ink">
+            {events.map((e) => (
+              <EventRow key={e.slug} card={toEventCard(e, locale)} locale={locale} labels={common} />
+            ))}
+          </ul>
+        </Section>
+      )}
 
       {others.length > 0 && (
         <Section id="autres" title={dict.artists.title} action={{ href: `/${locale}/artistes`, label: dict.nav.allArtists }}>

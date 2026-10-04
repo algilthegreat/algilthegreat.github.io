@@ -36,7 +36,6 @@ export default function Footer({ locale, dict }) {
         [L('/infos-pratiques'), nav.practical],
         [L('/faq'), nav.faq],
         [L('/contact'), nav.contact],
-        [L('/professionnels'), nav.pros],
         [L('/presse'), nav.press],
         [L('/medias'), nav.media],
       ],

@@ -105,7 +105,6 @@ export default function Header({ locale, nav, searchLabels, disciplines }) {
         {
           links: [
             { href: L('/partenaires'), label: nav.partners },
-            { href: L('/professionnels'), label: nav.pros },
             { href: L('/galerie'), label: nav.gallery },
             { href: L('/videos'), label: nav.videos },
           ],

@@ -95,7 +95,7 @@ export default async function EventPage({ params }) {
         <div>
           <section aria-labelledby="about">
             <h2 id="about" className="display text-5xl uppercase">{dict.event.about}</h2>
-            <p className="prose-site mt-6 text-xl">{tr(event.description, locale)}</p>
+            <p className="prose-site mt-6 text-xl whitespace-pre-line">{tr(event.description, locale)}</p>
           </section>
 
           {event.film && (
