@@ -1,0 +1,2 @@
+# Hébergement Apache : page 404 du festival pour toute URL inconnue
+ErrorDocument 404 /404.html

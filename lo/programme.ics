@@ -1,0 +1,462 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Institut francais du Laos//Festival France-Laos 2026//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Festival France–Laos 2026
+X-WR-TIMEZONE:Asia/Vientiane
+BEGIN:VEVENT
+UID:exposition-les-mains-du-maitre@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261108
+SUMMARY:ມືຂອງຄູຊ່າງ – ການສະແດງອ
+ ອກຂອງທ່າທາງ — Festival France–Laos 2026
+DESCRIPTION:ນິທັດສະການພາບຖ່າຍຂອງ 
+ Charlotte Andraca Tosseri ໃນສວນຂອງສະຖາບັນ
+ ຝຣັ່ງ ກ່ຽວກັບຄູຊ່າງເຮັດແ
+ ຄນ.\n\nhttps://algilthegreat.github.io/lo/evenements/exposition-les-
+ mains-du-maitre
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/exposition-les-mains-du
+ -maitre
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:soiree-veronique-de-lavenere@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261103T113000Z
+DTEND:20261103T123000Z
+SUMMARY:ຄ່ຳຄືນເປີດງານເທດສະການ 
+ ຝຣັ່ງ–ລາວ 2026 — Festival France–Laos 2026
+DESCRIPTION:ເທດສະການເປີດທີ່ສະຖາບ
+ ັນຝຣັ່ງ ຫຼວງພະບາງ ກັບ Véronique d
+ e Lavenère ແລະ ພິທີເປີດນິທັດສະກ
+ ານຂອງ Charlotte Andraca Tosseri. ລາຍລະອຽດຈ
+ ະແຈ້ງພາຍຫຼັງ.\n\nhttps://algilthegreat.github.io
+ /lo/evenements/soiree-veronique-de-lavenere
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/soiree-veronique-de-lav
+ enere
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:veronique-de-lavenere-khenes-du-laos@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261103T123000Z
+DTEND:20261103T140000Z
+SUMMARY:Véronique de Lavenère: ແຄນຂອງລາວ — Festival
+  France–Laos 2026
+DESCRIPTION:ການພົບປະທາງດົນຕີ ກ່ຽວ
+ ກັບຄວາມຫຼາກຫຼາຍຂອງແຄນລາວ
+  ກັບນັກມານຸດສາດດົນຕີ ແລະ ນ
+ ັກເປົ່າແຄນ Véronique de Lavenère. ລາຍລະ
+ ອຽດຈະແຈ້ງພາຍຫຼັງ.\n\nhttps://algilthegre
+ at.github.io/lo/evenements/veronique-de-lavenere-khenes-du-laos
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/veronique-de-lavenere-k
+ henes-du-laos
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:fortune-teller-luang-prabang@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261118
+SUMMARY:Fortune Teller — Festival France–Laos 2026
+DESCRIPTION:ການສາຍພາບແບບໂຕ້ຕອບຂອ
+ ງ Julie Stephen Chheng ໃນຫໍວາງສະແດງຂອງ
+ ສະຖາບັນຝຣັ່ງ.\n\nhttps://algilthegreat.github.io
+ /lo/evenements/fortune-teller-luang-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/fortune-teller-luang-pr
+ abang
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:uramado-luang-prabang@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261129
+SUMMARY:URAMADO AR\, ການຕື່ນຂອງ Tanuki — Festival F
+ rance–Laos 2026
+DESCRIPTION:ເສັ້ນທາງ AR ຂອງ Julie Stephen Chheng: 
+ ຊອກຫາ Tanuki ວິນຍານແຫ່ງປ່າທີ່
+ ຕື່ນຂຶ້ນໃນເມືອງ ດ້ວຍແອັບ
+ ຟຣີ.\n\nhttps://algilthegreat.github.io/lo/evenements/uramado-luan
+ g-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/uramado-luang-prabang
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:carte-blanche-les-filles-de-la-nam-khan@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261105T103000Z
+DTEND:20261105T120000Z
+SUMMARY:Carte blanche: « Les Filles de la Nam Khan » — Festival Franc
+ e–Laos 2026
+DESCRIPTION:Carte blanche ສະບັບພິເສດເທດສະ
+ ການ ຝຣັ່ງ–ລາວ: Sengchanh Soukhaseum ນຳສະ
+ ເໜີເລື່ອງລາວໄວເດັກຂອງນາງ
+ ທີ່ຫຼວງພະບາງ.\n\nhttps://algilthegreat.github.io
+ /lo/evenements/carte-blanche-les-filles-de-la-nam-khan
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/carte-blanche-les-fille
+ s-de-la-nam-khan
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:soiree-courts-metrages-luang-prabang@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261106T120000Z
+DTEND:20261106T140000Z
+SUMMARY:ຄ່ຳຄືນຮູບເງົາສັ້ນ ລາວ ແ
+ ລະ ຝຣັ່ງ — Festival France–Laos 2026
+DESCRIPTION:ຮູບເງົາສັ້ນ ລາວ ແລະ ຝຣ
+ ັ່ງ ທີ່ຄັດເລືອກ ຮ່ວມກັບ Bluech
+ air.\n\nhttps://algilthegreat.github.io/lo/evenements/soiree-courts-metr
+ ages-luang-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/soiree-courts-metrages-
+ luang-prabang
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:brel-femme-luang-prabang@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261107T123000Z
+DTEND:20261107T140000Z
+SUMMARY:Et si Brel était une femme ? (ຖ້າ Brel ເປັນຜູ
+ ້ຍິງ?) — Festival France–Laos 2026
+DESCRIPTION:Iris Munos ຕີຄວາມໃໝ່ບົດເພງຂ
+ ອງ Jacques Brel ທີ່ສະຖາບັນຝຣັ່ງ ຫຼ
+ ວງພະບາງ ພ້ອມກີຕາ ແລະ ລະນາດ
+ ລາວ (ລໍຖ້າການຢືນຢັນ).\n\nhttps://algil
+ thegreat.github.io/lo/evenements/brel-femme-luang-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/brel-femme-luang-praban
+ g
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:uramado-vientiane@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261129
+SUMMARY:URAMADO AR\, ການຕື່ນຂອງ Tanuki — Festival F
+ rance–Laos 2026
+DESCRIPTION:ເສັ້ນທາງ AR ຂອງ Julie Stephen Chheng: 
+ ຊອກຫາ Tanuki ວິນຍານແຫ່ງປ່າທີ່
+ ຕື່ນຂຶ້ນໃນເມືອງ ດ້ວຍແອັບ
+ ຟຣີ.\n\nhttps://algilthegreat.github.io/lo/evenements/uramado-vien
+ tiane
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/uramado-vientiane
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:le-petit-prince-pour-les-enfants@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261116
+SUMMARY:ເຈົ້າຊາຍນ້ອຍ ສຳລັບເດັກ
+ ນ້ອຍ — Festival France–Laos 2026
+DESCRIPTION:ກິດຈະກຳກ່ຽວກັບເຈົ້າຊ
+ າຍນ້ອຍ ສຳລັບນັກຮຽນ.\n\nhttps://algilth
+ egreat.github.io/lo/evenements/le-petit-prince-pour-les-enfants
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/le-petit-prince-pour-le
+ s-enfants
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:fortune-teller@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261129
+SUMMARY:Fortune Teller — Festival France–Laos 2026
+DESCRIPTION:ການສາຍພາບແບບໂຕ້ຕອບ ທີ
+ ່ຜູ້ຊົມໄດ້ພົບກັບວິນຍານແຫ
+ ່ງທຳມະຊາດ\, ໄດ້ແຮງບັນດານໃຈ
+ ຈາກຄຳພີອີ້ຈິງ.\n\nhttps://algilthegreat.github
+ .io/lo/evenements/fortune-teller
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/fortune-teller
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-uramado@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261115
+SUMMARY:ເວີກຊັອບ Uramado: ໜ້າກາກ AR — Festi
+ val France–Laos 2026
+DESCRIPTION:ລະຫວ່າງເຈ້ຍ ແລະ ດິຈິຕ
+ ອນ: ໂລກຂອງ Uramado ເລົ່າໂດຍຜູ້ສ
+ ້າງ.\n\nhttps://algilthegreat.github.io/lo/evenements/atelier-uram
+ ado
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/atelier-uramado
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:food-market-vientiane@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261115
+SUMMARY:ຕະຫຼາດອາຫານ — Festival France–Laos 2026
+DESCRIPTION:ຕະຫຼາດອາຫານລົດຊາດຝຣັ
+ ່ງ ແລະ ລາວ ທີ່ສະຖາບັນຝຣັ່ງ
+  ວຽງຈັນ. ລໍຖ້າການຢືນຢັນ.\n\nhttp
+ s://algilthegreat.github.io/lo/evenements/food-market-vientiane
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/food-market-vientiane
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-iris-apprenants-francais@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261110T020000Z
+DTEND:20261110T040000Z
+SUMMARY:ເວີກຊັອບເພງກັບ Iris ສຳລັບ
+ ຜູ້ຮຽນພາສາຝຣັ່ງ — Festival France–Laos
+  2026
+DESCRIPTION:ເວີກຊັອບກ່ຽວກັບເພງຂອ
+ ງ Jacques Brel ສຳລັບຜູ້ຮຽນພາສາຝຣັ
+ ່ງ ທີ່ LFIV. ລໍຖ້າການຢືນຢັນ.\n\nht
+ tps://algilthegreat.github.io/lo/evenements/atelier-iris-apprenants-fran
+ cais
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/atelier-iris-apprenants
+ -francais
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:conference-efeo@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261110T113000Z
+DTEND:20261110T130000Z
+SUMMARY:ການບັນຍາຍຂອງ EFEO — Festival France–L
+ aos 2026
+DESCRIPTION:ການບັນຍາຍໂດຍ École française d’Ex
+ trême-Orient. ລາຍລະອຽດຈະແຈ້ງພາຍຫຼ
+ ັງ.\n\nhttps://algilthegreat.github.io/lo/evenements/conference-efeo
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/conference-efeo
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:le-petit-prince-improvisation-adultes@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261111T113000Z
+DTEND:20261111T130000Z
+SUMMARY:ເຈົ້າຊາຍນ້ອຍ: ການສະແດງສ
+ ົດສຳລັບຜູ້ໃຫຍ່ — Festival France–Laos 20
+ 26
+DESCRIPTION:ຄ່ຳຄືນການສະແດງສົດສຳລ
+ ັບຜູ້ໃຫຍ່ ກ່ຽວກັບເຈົ້າຊາ
+ ຍນ້ອຍ. ລາຍລະອຽດຈະແຈ້ງພາຍຫ
+ ຼັງ.\n\nhttps://algilthegreat.github.io/lo/evenements/le-petit-pri
+ nce-improvisation-adultes
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/le-petit-prince-improvi
+ sation-adultes
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:projection-laos-tresor-oublie-civilisation-khmere@festival-france-lao
+ s-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261112T113000Z
+DTEND:20261112T133000Z
+SUMMARY:« Laos\, Trésor oublié de la civilisation khmère » — Festi
+ val France–Laos 2026
+DESCRIPTION:ການສາຍຮູບເງົາ ຕາມດ້ວຍ
+ ການແລກປ່ຽນ. ລາຍລະອຽດຈະແຈ້
+ ງພາຍຫຼັງ.\n\nhttps://algilthegreat.github.io/lo/evenemen
+ ts/projection-laos-tresor-oublie-civilisation-khmere
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/projection-laos-tresor-
+ oublie-civilisation-khmere
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:brel-femme-vientiane@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261113T123000Z
+DTEND:20261113T140000Z
+SUMMARY:Et si Brel était une femme ? (ຖ້າ Brel ເປັນຜູ
+ ້ຍິງ?) — Festival France–Laos 2026
+DESCRIPTION:Iris Munos ຕີຄວາມໃໝ່ບົດເພງຂ
+ ອງ Jacques Brel ທີ່ສະຖາບັນຝຣັ່ງ ປະ
+ ຈຳລາວ ວຽງຈັນ ພ້ອມ Aluna ແລະ ນັ
+ ກດົນຕີສີ່ຄົນ.\n\nhttps://algilthegreat.github.io
+ /lo/evenements/brel-femme-vientiane
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/brel-femme-vientiane
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:le-petit-prince-seance-tout-public@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:ເຈົ້າຊາຍນ້ອຍ ສຳລັບເດັກ
+ ນ້ອຍ: ເປີດໃຫ້ທຸກຄົນ — Festival Franc
+ e–Laos 2026
+DESCRIPTION:ກິດຈະກຳກ່ຽວກັບເຈົ້າຊ
+ າຍນ້ອຍ ເປີດໃຫ້ເດັກນ້ອຍທຸ
+ ກຄົນ.\n\nhttps://algilthegreat.github.io/lo/evenements/le-petit-
+ prince-seance-tout-public
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/le-petit-prince-seance-
+ tout-public
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:hip-hop-festival-vientiane@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261114T120000Z
+DTEND:20261114T150000Z
+SUMMARY:Hip Hop Festival — Festival France–Laos 2026
+DESCRIPTION:ຄ່ຳຄືນຮິບຮັອບ ທີ່ສະຖາ
+ ບັນຝຣັ່ງ ວຽງຈັນ. ລໍຖ້າການຢ
+ ືນຢັນ.\n\nhttps://algilthegreat.github.io/lo/evenements/hip-ho
+ p-festival-vientiane
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/hip-hop-festival-vienti
+ ane
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:ateliers-uramado-scolaires@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:ເວີກຊັອບ Uramado ສຳລັບນັກຮຽ
+ ນ — Festival France–Laos 2026
+DESCRIPTION:ເວີກຊັອບ Uramado ສອງຮອບ ສຳລ
+ ັບນັກຮຽນ (Hoffet). ລາຍລະອຽດຈະແຈ
+ ້ງພາຍຫຼັງ.\n\nhttps://algilthegreat.github.io/lo/evene
+ ments/ateliers-uramado-scolaires
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ວຽງຈັນ\, Avenue Lane Xang\, Vientiane\, ວຽງຈັນ\,
+  Laos
+URL:https://algilthegreat.github.io/lo/evenements/ateliers-uramado-scolai
+ res
+GEO:17.966;102.613
+END:VEVENT
+BEGIN:VEVENT
+UID:old-houses-livre-aquarelles@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261129
+SUMMARY:ເຮືອນເກົ່າຂອງຫຼວງພະບາ
+ ງ: ປຶ້ມ ແລະ ພາບສີນ້ຳ — Festival France
+ –Laos 2026
+DESCRIPTION:ນິທັດສະການພາບສີນ້ຳຂອ
+ ງ Magda Korotynska ກ່ຽວກັບປຶ້ມທີ່ຂຽນ
+ ຮ່ວມກັບ Francis Engelmann ກ່ຽວກັບເຮື
+ ອນເກົ່າຂອງຫຼວງພະບາງ. ພິທີ
+ ເປີດວັນທີ 20 ພະຈິກ.\n\nhttps://algilthegreat
+ .github.io/lo/evenements/old-houses-livre-aquarelles
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/old-houses-livre-aquare
+ lles
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:deambulation-maisons-luang-prabang@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261121T010000Z
+DTEND:20261121T030000Z
+SUMMARY:ຍ່າງຊົມ: ເຮືອນຂອງຫຼວງພະ
+ ບາງ — Festival France–Laos 2026
+DESCRIPTION:ຍ່າງຊົມເມືອງມໍລະດົກ ກ
+ ັບນັກຂຽນ Francis Engelmann.\n\nhttps://algilthegreat.git
+ hub.io/lo/evenements/deambulation-maisons-luang-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/deambulation-maisons-lu
+ ang-prabang
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:atelier-aquarelle-maisons-luang-prabang@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261121T033000Z
+DTEND:20261121T060000Z
+SUMMARY:ເວີກຊັອບສີນ້ຳ: ເຮືອນຂອງ
+ ຫຼວງພະບາງ — Festival France–Laos 2026
+DESCRIPTION:ແຕ້ມມໍລະດົກສິ່ງກໍ່ສ້
+ າງຂອງຫຼວງພະບາງ ກັບນັກແຕ້
+ ມພາບ Magda Korotynska.\n\nhttps://algilthegreat.github.io/lo/eve
+ nements/atelier-aquarelle-maisons-luang-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/atelier-aquarelle-maiso
+ ns-luang-prabang
+GEO:19.889;102.136
+END:VEVENT
+BEGIN:VEVENT
+UID:entite-show-luang-prabang@festival-france-laos-2026
+DTSTAMP:20261006T013437Z
+DTSTART:20261121T120000Z
+DTEND:20261121T133000Z
+SUMMARY:Entité Show — Festival France–Laos 2026
+DESCRIPTION:ຄະນະ Compagnie Entité ແລະ ການເຕັ
+ ້ນຮິບຮັອບຂອງ Simon Dimouro ພ້ອມ JIPF.\n\
+ nhttps://algilthegreat.github.io/lo/evenements/entite-show-luang-prabang
+LOCATION:ສະຖາບັນຝຣັ່ງ ປະຈຳລາວ — 
+ ຫຼວງພະບາງ\, Ban Vat Nong\, Sisavangvatthana Road\, Lua
+ ng Prabang\, ຫຼວງພະບາງ\, Laos
+URL:https://algilthegreat.github.io/lo/evenements/entite-show-luang-praba
+ ng
+GEO:19.889;102.136
+END:VEVENT
+END:VCALENDAR
