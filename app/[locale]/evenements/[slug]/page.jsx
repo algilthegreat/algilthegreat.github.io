@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import { MapPin, Clock, Ticket, Accessibility, Languages, Navigation, CalendarDays } from 'lucide-react'
+import { MapPin, Clock, Ticket, Accessibility, Languages, Navigation, CalendarDays, ExternalLink } from 'lucide-react'
 import Breadcrumbs from '@/components/Breadcrumbs'
 import SplitText from '@/components/reactbits/SplitText'
 import AnimatedContent from '@/components/reactbits/AnimatedContent'
@@ -14,6 +14,7 @@ import MapView from '@/components/MapView'
 import Section from '@/components/Section'
 import JsonLd from '@/components/JsonLd'
 import CitySocial from '@/components/CitySocial'
+import AppBadges from '@/components/AppBadges'
 import { getDictionary } from '@/lib/i18n'
 import { locales, tr } from '@/lib/i18n/config'
 import { getArtist, getEvent, getEvents, getRelatedEvents, eventTypes, toArtistCard, toEventCard } from '@/lib/data'
@@ -98,6 +99,58 @@ export default async function EventPage({ params }) {
             <h2 id="about" className="display text-5xl uppercase">{dict.event.about}</h2>
             <p className="prose-site mt-6 text-xl whitespace-pre-line">{tr(event.description, locale)}</p>
           </section>
+
+          {event.app && (
+            <section aria-labelledby="app" className="mt-14 border-2 border-ink p-6 md:p-8" style={{ background: `color-mix(in srgb, ${event.color} 22%, transparent)` }}>
+              <h2 id="app" className="display text-4xl uppercase">{dict.event.app}</h2>
+              <p className="mt-3 text-lg font-semibold">{dict.event.appText}</p>
+              <AppBadges app={event.app} labels={dict.event} className="mt-6" />
+            </section>
+          )}
+
+          {event.story && (
+            <section aria-labelledby="story" className="mt-14">
+              <h2 id="story" className="display text-5xl uppercase">{dict.event.story}</h2>
+              <p className="prose-site mt-6 text-xl">{tr(event.story.text, locale)}</p>
+              {event.story.past?.length > 0 && (
+                <>
+                  <h3 className="kicker mt-8 text-blue">{dict.event.pastEvents}</h3>
+                  <ul className="mt-3 border-t-2 border-ink">
+                    {event.story.past.map((p) => (
+                      <li key={p.fr} className="border-b-2 border-ink/10 py-3 text-lg">{tr(p, locale)}</li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </section>
+          )}
+
+          {(event.team || event.links) && (
+            <section aria-labelledby="team" className="mt-14 border-2 border-ink p-6 md:p-8">
+              <h2 id="team" className="display text-4xl uppercase">{dict.event.team}</h2>
+              {event.team && (
+                <dl className="mt-6 grid gap-4 md:grid-cols-2">
+                  {event.team.map(([role, name]) => (
+                    <div key={name}><dt className="kicker text-ink/60">{tr(role, locale)}</dt><dd className="font-bold">{name}</dd></div>
+                  ))}
+                </dl>
+              )}
+              {event.links && (
+                <>
+                  <h3 className="kicker mt-8 text-ink/60">{dict.event.links}</h3>
+                  <ul className="mt-3 flex flex-wrap gap-2">
+                    {event.links.map(([label, href]) => (
+                      <li key={href}>
+                        <a href={href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 border-2 border-ink px-3 py-1.5 text-sm font-bold transition-colors hover:bg-tournesol">
+                          {typeof label === 'string' ? label : tr(label, locale)} <ExternalLink className="size-3.5" aria-hidden="true" />
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </section>
+          )}
 
           {event.film && (
             <section aria-labelledby="film" className="mt-14 border-2 border-ink p-6 md:p-8">
