@@ -11,6 +11,7 @@ export default function ClickSpark({ children, count = 10, radius = 26, duration
 
   useEffect(() => {
     const canvas = canvasRef.current
+    if (!canvas) return
     const resize = () => {
       canvas.width = window.innerWidth * devicePixelRatio
       canvas.height = window.innerHeight * devicePixelRatio
@@ -26,6 +27,8 @@ export default function ClickSpark({ children, count = 10, radius = 26, duration
   const draw = useCallback(
     (now) => {
       const canvas = canvasRef.current
+      // Canvas démonté (navigation, rechargement) alors qu'une frame était encore en attente
+      if (!canvas) return
       const ctx = canvas.getContext('2d')
       const dpr = devicePixelRatio
       ctx.clearRect(0, 0, canvas.width, canvas.height)
