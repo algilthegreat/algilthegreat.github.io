@@ -86,7 +86,13 @@ export default async function EventPage({ params }) {
       </header>
 
       <div className="aspect-[21/9] max-h-[65vh] w-full overflow-hidden border-b-2 border-ink">
-        {event.photo ? (
+        {event.photo && event.photoFit === 'contain' ? (
+          // Image entière, centrée sur un fond flouté tiré d'elle-même (visuels qu'un recadrage 21:9 couperait)
+          <div className="relative h-full w-full">
+            <Image src={event.photo} alt="" fill sizes="100vw" className="scale-110 object-cover blur-2xl" />
+            <Image src={event.photo} alt={tr(event.title, locale)} fill priority sizes="100vw" className="object-contain" />
+          </div>
+        ) : event.photo ? (
           <Image src={event.photo} alt={tr(event.title, locale)} width={2100} height={900} priority sizes="100vw" className="h-full w-full object-cover" />
         ) : (
           <Poster seed={`${slug}-hero`} color={event.color} ratio={21 / 9} title={tr(event.title, locale)} />
