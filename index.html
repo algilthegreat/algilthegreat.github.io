@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Festival France–Laos 2026</title>
+  <link rel="icon" href="/favicon.ico?v=2">
+  <meta name="description" content="Festival France–Laos 2026 de l’Institut français du Laos : musique, danse, cinéma, expositions et rencontres à Luang Prabang et Vientiane, du 3 au 21 novembre 2026.">
+  <link rel="canonical" href="https://algilthegreat.github.io/fr">
+  <link rel="alternate" hreflang="fr" href="https://algilthegreat.github.io/fr">
+  <link rel="alternate" hreflang="en" href="https://algilthegreat.github.io/en">
+  <link rel="alternate" hreflang="lo" href="https://algilthegreat.github.io/lo">
+  <link rel="alternate" hreflang="x-default" href="https://algilthegreat.github.io/">
+  <!-- Choix de la langue d'après le navigateur (fr / en / lo), français par défaut -->
+  <script>
+    (function () {
+      var locales = ['fr', 'en', 'lo']
+      var prefs = navigator.languages || [navigator.language || 'fr']
+      var locale = 'fr'
+      for (var i = 0; i < prefs.length; i++) {
+        var lang = String(prefs[i]).toLowerCase().split('-')[0]
+        if (locales.indexOf(lang) !== -1) { locale = lang; break }
+      }
+      location.replace('/' + locale + location.search + location.hash)
+    })()
+  </script>
+  <noscript><meta http-equiv="refresh" content="0; url=/fr"></noscript>
+</head>
+<body style="font-family: sans-serif; padding: 2rem">
+  <p><a href="/fr">Festival France–Laos 2026</a> · <a href="/en">English</a> · <a href="/lo">ລາວ</a></p>
+</body>
+</html>
